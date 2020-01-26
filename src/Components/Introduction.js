@@ -1,6 +1,7 @@
 import React, {Component} from "react";
+import IntroImage from "../img/owans1a.png";
 
-export default class Header extends Component{
+export default class Introduction extends Component{
     render(){
         return(
             <div>
@@ -11,6 +12,7 @@ export default class Header extends Component{
                     <p className="section__subtitle section__subtitle--intro">
                         Software Developer &&amp; Technical Writer
                     </p>
+                    <img src={IntroImage} alt="Owans Smiling" className="intro__img"></img>
                 </section>       
             </div>
         )
