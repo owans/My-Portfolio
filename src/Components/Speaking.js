@@ -9,7 +9,7 @@ export default class Speak extends Component{
     render(){
         return(
             <div>
-                <section className="my-work" id="work">
+                <section className="my-work" id="speak">
                     <h2 className="section__title section__title--work">Speaking Engagements/Community</h2>
                     <p className="section__subtitle section__subtitle--work">Community Contributions</p>
 
