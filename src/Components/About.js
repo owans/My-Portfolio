@@ -10,8 +10,11 @@ export default class About extends Component{
                     <p className="section__subtitle section__subtitle--about">Software Developer and Technical Writer based out of Port Harcourt, Nigeria</p>
 
                     <div className="about-me__body">
-                        <p>Owanate Amachree hails from Rivers State, Nigeria</p>
-                        <p>She is a Software Developer and Technical Writer</p>
+                        <p>Owanate Amachree hails from Rivers State in Nigeria</p>
+                        <p>She is a Software Developer, Technical Writer and a Blockchain UX Researcher. 
+                            She has been in the tech space for over 2years running, enjoys games like scrabble, loves to volunteer and travel. 
+                            She's an outgoing individual who believes in the power of unity, hence her love for team work and passion for open source.
+                        </p>
                     </div>
                     <img src={SecondImage} alt="Owans Standing" className="about-me__img"></img>
                 </section>

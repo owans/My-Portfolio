@@ -6,11 +6,12 @@ export default class Header extends Component{
     constructor(props) {
         super(props);
 
-        // This binding is necessary to make `this` work in the callback
+        // This binding is necessary to make `this` work
         this.onChange = this.onChange.bind(this);
         this.onRemove = this.onRemove.bind(this);
     }
 
+    //onchange event to open nav toggle
     onChange(e) {
         const navToggle = document.querySelector('.nav-toggle');        
         navToggle.addEventListener('click', () => {
@@ -18,6 +19,7 @@ export default class Header extends Component{
         });  
     }
 
+    //onremove event to close nav toggle
     onRemove(e){
         const navLinks = document.querySelectorAll('.nav__link')
         navLinks.forEach(link => {
