@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import Footer from "../Components/Footer";
+import Footer from "./common/Footer";
 import firstImage from "../img/owans.png";
 import NotFoundImage from "../img/undraw_no_data.svg";
 

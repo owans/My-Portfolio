@@ -2,7 +2,7 @@ import React from "react";
 import firstImage from "../img/owans.png";
 import PortfolioImage1 from "../img/portfolio-01.jpg";
 import PortfolioDetails from "../img/portfolio-details.jpg";
-import Footer from "../Components/Footer";
+import Footer from "./common/Footer";
 
 
 

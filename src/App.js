@@ -2,7 +2,7 @@ import React from 'react';
 // import './App.css';
 import {Route, Switch} from 'react-router-dom';
 import Home from "./Components/Home";
-import Header from "./Components/Header";
+import Header from "./Components/common/Header";
 import Introduction from "./Components/Introduction";
 import Portfolio1 from "./Components/Portfolio-item";
 import NotFound from "./Components/Notfound";
