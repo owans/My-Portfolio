@@ -10,7 +10,7 @@ export default class Introduction extends Component{
                         Hi, I am <strong>Owanate Amachree</strong>
                     </h1>
                     <p className="section__subtitle section__subtitle--intro">
-                        Software Developer &&amp; Technical Writer
+                        Software Developer, Technical Writer &&amp; User Researcher
                     </p>
                     <img src={IntroImage} alt="Owans Smiling" className="intro__img"></img>
                 </section>       

@@ -474,3 +474,13 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
+
+.notfound__item{
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+}
+
+.notfound__img{
+  max-width: 50em;
+}
