@@ -396,7 +396,7 @@ header {
 }
 
 .portfolio__item {
-  background: var(--clr-dark);
+  background: var(--clr-light);
   overflow: hidden;
 }
 
@@ -415,7 +415,7 @@ header {
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
     opacity: .5;
-    /* background: var(--clr-dark); */
+    background: var(--clr-dark);
 }
 
 /* footer */
