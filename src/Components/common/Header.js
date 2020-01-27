@@ -50,7 +50,7 @@ export default class Header extends Component{
                         <li className="nav__item"><a href="#services" className="nav__link">My Services</a></li>
                         <li className="nav__item"><a href="#about" className="nav__link">About Me</a></li>
                         <li className="nav__item"><a href="#work" className="nav__link">My Work</a></li>
-                        <li className="nav__item"><a href="#speak" className="nav__link">Speaking Engagements</a></li>
+                        <li className="nav__item"><a href="#speak" className="nav__link">Speaking <br></br>Engagements</a></li>
                     </ul>
                 </nav>
                 </header>
