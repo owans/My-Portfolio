@@ -4,6 +4,7 @@ import Introduction from "../Components/Introduction";
 import Services from "../Components/Services";
 import About from "../Components/About";
 import Work from "../Components/Work";
+import SpeakingEvents from "../Components/Speaking";
 import Footer from "../Components/Footer";
 
 export default class Home extends React.Component{
@@ -15,6 +16,7 @@ export default class Home extends React.Component{
         <Services/>
         <About/>
         <Work/>
+        <SpeakingEvents/>
         <Footer/>
       </React.Fragment>
     )
