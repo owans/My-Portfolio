@@ -3,14 +3,6 @@ import {Link} from "react-router-dom";
 import Portfolio1 from "../img/portfolio-01.png";
 import Portfolio2 from "../img/portfolio-02.png";
 import Portfolio3 from "../img/portfolio-03.jpg";
-import Portfolio4 from "../img/portfolio-04.jpg";
-import Portfolio5 from "../img/portfolio-05.jpg";
-import Portfolio6 from "../img/portfolio-06.jpg";
-import Portfolio7 from "../img/portfolio-07.jpg";
-import Portfolio8 from "../img/portfolio-08.jpg";
-import Portfolio9 from "../img/portfolio-09.jpg";
-import Portfolio10 from "../img/portfolio-10.jpg";
-
 
 export default class Work extends Component{
     render(){
@@ -29,27 +21,6 @@ export default class Work extends Component{
                         </Link>
                         <a href="#" className="portfolio__item">
                             <img src={Portfolio3} alt="My Portfolio" className="portfolio__img"></img>
-                        </a>
-                        <a href="#" className="portfolio__item">
-                            <img src={Portfolio4} alt="My Portfolio" className="portfolio__img"></img>
-                        </a>
-                        <a href="#" className="portfolio__item">
-                            <img src={Portfolio5} alt="My Portfolio" className="portfolio__img"></img>
-                        </a>
-                        <a href="#" className="portfolio__item">
-                            <img src={Portfolio6} alt="My Portfolio" className="portfolio__img"></img>
-                        </a>
-                        <a href="#" className="portfolio__item">
-                            <img src={Portfolio7} alt="My Portfolio" className="portfolio__img"></img>
-                        </a>
-                        <a href="#" className="portfolio__item">
-                            <img src={Portfolio8} alt="My Portfolio" className="portfolio__img"></img>
-                        </a>
-                        <a href="#" className="portfolio__item">
-                            <img src={Portfolio9} alt="My Portfolio" className="portfolio__img"></img>
-                        </a>
-                        <a href="#" className="portfolio__item">
-                            <img src={Portfolio10} alt="My Portfolio" className="portfolio__img"></img>
                         </a>
                     </div>
                 </section>

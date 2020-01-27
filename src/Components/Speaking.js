@@ -1,9 +1,7 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
-import Portfolio1 from "../img/portfolio-01.png";
-import Portfolio2 from "../img/portfolio-02.png";
-import Portfolio3 from "../img/portfolio-03.jpg";
-import Portfolio4 from "../img/portfolio-04.jpg";
+import SpeakerPortfolio1 from "../img/speaker_portfolio_1.png";
+import SpeakerPortfolio2 from "../img/speaker_portfolio_2.png";
 
 export default class Speak extends Component{
     render(){
@@ -14,18 +12,12 @@ export default class Speak extends Component{
                     <p className="section__subtitle section__subtitle--work">Community Contributions</p>
 
                     <div className="portfolio">
-                        <Link to="/portfolio1" href="#" className="portfolio__item">
-                            <img src={Portfolio1} alt="My Portfolio" className="portfolio__img"></img>
+                        <Link to="/speaking" href="#" className="portfolio__item">
+                            <img src={SpeakerPortfolio1} alt="My Portfolio" className="portfolio__img"></img>
                         </Link>
-                        <a href="#" className="portfolio__item">
-                            <img src={Portfolio2} alt="My Portfolio" className="portfolio__img"></img>
-                        </a>
-                        <a href="#" className="portfolio__item">
-                            <img src={Portfolio3} alt="My Portfolio" className="portfolio__img"></img>
-                        </a>
-                        <a href="#" className="portfolio__item">
-                            <img src={Portfolio4} alt="My Portfolio" className="portfolio__img"></img>
-                        </a>
+                        <Link to="/speaking2" className="portfolio__item">
+                            <img src={SpeakerPortfolio2} alt="My Portfolio" className="portfolio__img"></img>
+                        </Link>
                     </div>
                 </section>
             </div>

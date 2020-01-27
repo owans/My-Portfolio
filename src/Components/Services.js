@@ -10,7 +10,7 @@ export default class Services extends Component{
                     </h2>
                     <div className="services">
                         <div className="service">
-                            <h3>Backend Developer</h3>
+                            <h3>Software Developer</h3>
                             <p>
                                 I specialise in building rest APIs with Express, MySQL, MongoDB and NodeJS
                                 Tools i use include GIT, BitBucket, Trello, Postman.
