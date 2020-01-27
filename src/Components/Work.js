@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
 import Portfolio1 from "../img/portfolio-01.png";
-import Portfolio2 from "../img/portfolio-02.jpg";
+import Portfolio2 from "../img/portfolio-02.png";
 import Portfolio3 from "../img/portfolio-03.jpg";
 import Portfolio4 from "../img/portfolio-04.jpg";
 import Portfolio5 from "../img/portfolio-05.jpg";
@@ -24,9 +24,9 @@ export default class Work extends Component{
                         <Link to="/portfolio1" href="#" className="portfolio__item">
                             <img src={Portfolio1} alt="My Portfolio" className="portfolio__img"></img>
                         </Link>
-                        <a href="#" className="portfolio__item">
+                        <Link to="/portfolio2" href="#" className="portfolio__item">
                             <img src={Portfolio2} alt="My Portfolio" className="portfolio__img"></img>
-                        </a>
+                        </Link>
                         <a href="#" className="portfolio__item">
                             <img src={Portfolio3} alt="My Portfolio" className="portfolio__img"></img>
                         </a>

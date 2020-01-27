@@ -1,10 +1,10 @@
 import React from "react";
 import firstImage from "../img/owans.png";
-import PortfolioImage1 from "../img/portfolio-01.png";
-import PortfolioDetails from "../img/portfolio-01.png";
+import PortfolioImage2 from "../img/portfolio-02.png";
+import PortfolioDetails from "../img/portfolio-02.png";
 import Footer from "./common/Footer";
 
-export default class PortfolioItem extends React.Component{
+export default class SecondPortfolioItem extends React.Component{
     constructor(props) {
         super(props);
 
@@ -56,31 +56,29 @@ export default class PortfolioItem extends React.Component{
                 </header>
                 <section className="intro" id="home">
                     <h1 className="section__title section__title--intro">
-                        Project <strong>KoloSave</strong>
+                        Project <strong>Owatimer</strong>
                     </h1>
                     <p className="section__subtitle section__subtitle--intro">
-                        A savings app
+                        A timing app for employees
                     </p>
-                    <a href="https://kolosave.herokuapp.com" className="intro__img">
-                   <img src={PortfolioImage1} alt="First Portfolio" ></img>
+                    <a href="https://owatimer.herokuapp.com" className="intro__img">
+                   <img src={PortfolioImage2} alt="First Portfolio" ></img>
                    </a>
                 </section>
 
                 <div class="portfolio-item-individual">
-                    <p>Kolosave is a clone of the piggy bank savings app, 
-                        users can save any amount directly deducted 
-                        from their bank accounts and earn interest on it
+                    <p>Owatimer keeps track of employee leave,offs
+                    absence, etc of an organization.                
                     </p>
                         <img src={PortfolioDetails} alt=""></img>
-                    <p>Kolosave (formerly piggybank.ng) helps you stop excessive
-                        spending by allowing you save and invest money you would
-                        normally be tempted to spend.
+                    <p>Employees can request for timeoff with valid reason on Owatimer and be approved by the manager/admin
+                        Admin can approve/reject timeoff on behalf of the company. 
+                       <br></br>Employees timeoffs are tracked and users can only request timeoff based on allocation for the year.
                     </p>
-                    <p>Earn Over 10% Interests On Savings.
-                    <br></br>Earn Over 13% Return On Investments.
+                    <p>Request for timeoffs
+                    <br></br>Keep track of all employee leave request.
                     </p>
-
-                    <a href="https://kolosave.herokuapp.com">
+                    <a href="https://owatimer.herokuapp.com">
                         <button className="portfolio__button">Checkout App</button>
                     </a>
                 </div>

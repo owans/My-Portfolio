@@ -485,3 +485,11 @@ header {
 .notfound__img{
   max-width: 50em;
 }
+
+.portfolio__button{
+  background: #111;
+  color: var(--clr-accent);
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
