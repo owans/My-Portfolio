@@ -1,10 +1,8 @@
 import React from "react";
 import firstImage from "../img/owans.png";
-import PortfolioImage1 from "../img/portfolio-01.jpg";
-import PortfolioDetails from "../img/portfolio-details.jpg";
+import PortfolioImage1 from "../img/portfolio-01.png";
+import PortfolioDetails from "../img/portfolio-01.png";
 import Footer from "./common/Footer";
-
-
 
 export default class PortfolioItem extends React.Component{
     constructor(props) {
@@ -52,24 +50,35 @@ export default class PortfolioItem extends React.Component{
                         <li className="nav__item"><a href="/#services" className="nav__link">My Services</a></li>
                         <li className="nav__item"><a href="/#about" className="nav__link">About Me</a></li>
                         <li className="nav__item"><a href="/#work" className="nav__link">My Work</a></li>
+                        <li className="nav__item"><a href="/#speak" className="nav__link">Speaking Engagement</a></li>
                     </ul>
                 </nav>
                 </header>
                 <section className="intro" id="home">
                     <h1 className="section__title section__title--intro">
-                        The Title <strong>of my project</strong>
+                        Project <strong>KoloSave</strong>
                     </h1>
                     <p className="section__subtitle section__subtitle--intro">
-                        A Short Subtitle
+                        A savings app
                     </p>
-                    <img src={PortfolioImage1} alt="First Portfolio" className="intro__img"></img>
+                    <a href="https://kolosave.herokuapp.com" className="intro__img">
+                   <img src={PortfolioImage1} alt="First Portfolio" ></img>
+                   </a>
                 </section>
 
                 <div class="portfolio-item-individual">
-                    <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+                    <p>Kolosave is a clone of the piggy bank savings app, 
+                        users can save any amount directly deducted 
+                        from their bank accounts and earn interest on it
+                    </p>
                         <img src={PortfolioDetails} alt=""></img>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?</p>
-                    <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+                    <p>Kolosave (formerly piggybank.ng) helps you stop excessive
+                        spending by allowing you save and invest money you would
+                        normally be tempted to spend.
+                    </p>
+                    <p>Earn Over 10% Interests On Savings.
+                    <br></br>Earn Over 13% Return On Investments.
+                    </p>
                 </div>
                 <Footer/>
             </div>

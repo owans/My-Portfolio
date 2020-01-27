@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
-import Portfolio1 from "../img/portfolio-01.jpg";
+import Portfolio1 from "../img/portfolio-01.png";
 import Portfolio2 from "../img/portfolio-02.jpg";
 import Portfolio3 from "../img/portfolio-03.jpg";
 import Portfolio4 from "../img/portfolio-04.jpg";

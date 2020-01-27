@@ -396,7 +396,7 @@ header {
 }
 
 .portfolio__item {
-  background: var(--clr-accent);
+  background: var(--clr-dark);
   overflow: hidden;
 }
 
@@ -415,6 +415,7 @@ header {
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
     opacity: .5;
+    /* background: var(--clr-dark); */
 }
 
 /* footer */
@@ -464,7 +465,7 @@ header {
 /* Individual portfolio item styles */
 
 .portfolio-item-individual {
-  padding: 0 2em 2em;
+  padding: 0 15em 2em;
   max-width: 1000px;
   margin: 0 auto;
 }
