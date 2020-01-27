@@ -15,7 +15,7 @@ export default class Speak extends Component{
                         <Link to="/speaking" href="#" className="portfolio__item">
                             <img src={SpeakerPortfolio1} alt="My Portfolio" className="portfolio__img"></img>
                         </Link>
-                        <Link to="/speaking2" className="portfolio__item">
+                        <Link to="/speaking_2" className="portfolio__item">
                             <img src={SpeakerPortfolio2} alt="My Portfolio" className="portfolio__img"></img>
                         </Link>
                     </div>

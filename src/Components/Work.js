@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {Link} from "react-router-dom";
 import Portfolio1 from "../img/portfolio-01.png";
 import Portfolio2 from "../img/portfolio-02.png";
-import Portfolio3 from "../img/portfolio-03.jpg";
+import Portfolio3 from "../img/technical-image.png";
 
 export default class Work extends Component{
     render(){
@@ -13,15 +13,15 @@ export default class Work extends Component{
                     <p className="section__subtitle section__subtitle--work">A selection of my range of work</p>
 
                     <div className="portfolio">
-                        <Link to="/portfolio1" href="#" className="portfolio__item">
+                        <Link to="/portfolio_1" href="#" className="portfolio__item">
                             <img src={Portfolio1} alt="My Portfolio" className="portfolio__img"></img>
                         </Link>
-                        <Link to="/portfolio2" href="#" className="portfolio__item">
+                        <Link to="/portfolio_2" href="#" className="portfolio__item">
                             <img src={Portfolio2} alt="My Portfolio" className="portfolio__img"></img>
                         </Link>
-                        <a href="#" className="portfolio__item">
+                        <Link to="/technical_writing_portfolio" className="portfolio__item">
                             <img src={Portfolio3} alt="My Portfolio" className="portfolio__img"></img>
-                        </a>
+                        </Link>
                     </div>
                 </section>
             </div>
