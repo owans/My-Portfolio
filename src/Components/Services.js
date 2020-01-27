@@ -24,7 +24,7 @@ export default class Services extends Component{
                             </p>
                         </div>
                         <div className="service">
-                            <h3>Blockchain UX Writer</h3>
+                            <h3>Blockchain UX Researcher</h3>
                             <p>User centered design in blockchain, user-research, modelling and use of tools such as UML
                             </p>
                         </div>
