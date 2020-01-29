@@ -17,7 +17,7 @@ export default class About extends Component{
                             </a>
                         </li>
                         <li className="social-list__item">
-                            <a className="social-list__link" href="https://twitter.com/owans"><i className="fab 
+                            <a className="social-list__link" href="https://twitter.com/missowans"><i className="fab 
                             fa-twitter"></i>
                             </a>
                         </li>
